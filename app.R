@@ -46,7 +46,6 @@ ui <- fluidPage(
       a(href = "https://www.kaggle.com/datasets/rkiattisak/student-performance-in-mathematics", "here.", target="_blank"),
       
       br(),
-      br(),
       span("More about me: "),
       a(href="https://github.com/EliBrignac", "GitHub", target = "_blank", align = "center"),
       span(" ❤️‍🔥 ", align = "right"),
