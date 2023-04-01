@@ -100,7 +100,7 @@ boxplot(exams$total_score ~ exams$gender,
 boxplot(exams$total_score ~ exams$ethnicity, 
         data = exams, 
         main = "Total Scores by Ethnicity", 
-        xlab = "Gender", 
+        xlab = "Ethnicity", 
         ylab = "Total Score",
         outline = TRUE, #Set to false to remove the outlires
         col = c("#C5E8B7", "#ABE098", "#83D475","#57C84D", "#2EB62C")
