@@ -6,7 +6,7 @@ I don't think online compilers will work because they won't let you install shin
 ```
 install.packages('shiny') #if you have shiny installed you don't need this line
 library(shiny) #import shiny
-runGitHub("Student-Perfromance-Analysis", "EliBrignac") #run my app
+runGitHub("StudentPerfromanceAnalysis", "EliBrignac") #run my app
 ```
 
 
