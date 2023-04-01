@@ -1,7 +1,7 @@
 # Student-Perfromance-Analysis
 
 ##  ✨ The Shiny App ✨
-To run the app I made using shiny, run these lines of code in your favorite R compiler IDE and it will pull up a pop-up window in your current browser. Make sure you have shiny 1.7.4 installed, if you already have shiny 1.7.4 you don't need to install it again. You can run the command `packageVersion("shiny")` to check what version of shiny you have installed.
+To run the app I made using shiny, run these lines of code in your favorite R compiler IDE and it will pull up a pop-up window in your current browser. Make sure you have shiny version 1.7.4 or later installed. You can run the command `packageVersion("shiny")` to check what version of shiny you have installed.
 ```
 install.packages('shiny') #This installs the most recent version of Shiny
 library(shiny) #import shiny library
