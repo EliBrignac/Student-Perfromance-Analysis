@@ -2,7 +2,7 @@
 
 ##  ✨ The Shiny App ✨
 To run the app I made using shiny, run these lines of code in your favorite R compiler IDE. It will pull up a pop-up window in your current browser.
-I couldn't get it to run with any online compiler so you unfortunately will have to use your IDE. If you already have shiny installed, you don't need to install it again.
+I couldn't get it to run with any online compiler so you unfortunately will have to use your IDE (RStudio). If you already have shiny installed, you don't need to install it again.
 ```
 install.packages('shiny') #if you have shiny installed you don't need this line
 library(shiny) #import shiny
