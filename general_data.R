@@ -4,14 +4,14 @@ pacman::p_load(pacman, dplyr, GGally, ggplot2, ggthemes,
                  stringr, tidyr)
 
 
-#runExample("01_hello")
+
 
 
 
 
 # Load the dataset
 
-exams <- read.csv("Eli-app\\data\\exams.csv")
+exams <- read.csv("data\\exams.csv")
 # head(exams)
 # plot(exams)
 
@@ -87,7 +87,7 @@ abline(lm(exams$writing_score ~ exams$reading_score),
        )
 
 
-# Create a boxplot of genders and math.score
+# Create a boxplot of genders and math_score
 boxplot(exams$total_score ~ exams$gender, 
         data = exams, 
         main = "Boxplot of Math Scores by Gender", 
@@ -136,23 +136,4 @@ data <- exams[exams$parent_edu %in% schooling,]
 ggplot(data, aes(x = math_score, y = reading_score, color = parent_edu, shape = test_prep)) + 
   geom_point() +
   labs(x = "Math Score", y = "English Score", color = "Parent Education")
-
-
-
-
-# # Load the necessary packages
-# library(ggplot2)
-# 
-# # Load the dataset
-# exams <- read.csv("Eli-app\\data\\exams.csv")
-# # Plot a histogram of the math scores
-# ggplot(exams, aes(x = math.score)) +
-#   geom_histogram(aes(y = ..density..), bins = 30, color = "black", fill = "lightblue") +
-#   labs(title = "Histogram of Math Scores", x = "Math Score", y = "Density")
-# 
-# # Add a normal density curve to the plot
-# ggplot(exams, aes(x = math.score)) +
-#   geom_histogram(aes(y = ..density..), bins = 30, color = "black", fill = "lightblue") +
-#   stat_function(fun = dnorm, args = list(mean = mean(exams$math.score), sd = sd(exams$math.score)), color = "red", size = 1) +
-#   labs(title = "Histogram of Math Scores with Normal Density Curve", x = "Math Score", y = "Density")
 
