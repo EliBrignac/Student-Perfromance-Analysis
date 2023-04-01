@@ -59,7 +59,7 @@ server <- function(input, output) {
   
   data <- reactive({
     d <- exams %>% filter(test_prep %in% input$prep & parent_edu %in% input$edu)
-    print(d)
+    #print(d)
 
   })
   
