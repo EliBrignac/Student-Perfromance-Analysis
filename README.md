@@ -26,8 +26,8 @@ to the x-axis (x-axis is where the residual is 0).
 
 ![GenderBoxplot](https://user-images.githubusercontent.com/94129362/229268007-0a522763-b6ea-49f7-970b-48e1d1ba9e57.png)
 
-The figure above is a boxplot comparing the total scores (sum of math, reading, and writing scores) of females and males. We can
-see that there is no real significant difference so there isn't much interesting here.
+The figure above is a boxplot comparing the total scores (sum of math, reading, and writing scores) of females and males.
+We can see that there is no significant differences here, infact they are almost exactly the same.
 
 ![EthnicityBoxPlot1](https://user-images.githubusercontent.com/94129362/229268012-1c34de8f-91b3-461f-acc9-da35f17dc6c9.png)
 
