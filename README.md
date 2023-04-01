@@ -1,11 +1,16 @@
 # Student-Perfromance-Analysis
 
-## The Shiny App
-To run the app I made using shiny, run the line of code `runGitHub( "Student-Perfromance-Analysis", "EliBrignac")`
-in your favorite R compiler IDE. It will pull up a pop-up window in your current browser.
+##  ✨ The Shiny App ✨
+To run the app I made using shiny, run these lines of code in your favorite R compiler IDE. It will pull up a pop-up window in your current browser.
+I don't think online compilers will work because they won't let you install shiny. If you already have shiny installed, you don't need to install it again.
+```
+install.packages('shiny') #if you have shiny installed you don't need this line
+library(shiny) #import shiny
+runGitHub( "Student-Perfromance-Analysis", "EliBrignac") #run my app
+```
 
 
-## The General Data
+### The General Data
 #### Here are the graphs that the general_analysis file makes, I just made them because it was fun and interesting
 
 
