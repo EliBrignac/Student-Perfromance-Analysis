@@ -1,9 +1,13 @@
 # Student-Perfromance-Analysis
 
 ##  ✨ The Shiny App ✨
-To run the app I made using shiny, run these lines of code in your favorite R compiler IDE and it will pull up a pop-up window in your current browser. In order to run this, you need to install the package managing tool `"pacman"`. You can install this by running the line `install.packages("pacman")`. Once pacman is installed, you can run the following lines of code.
+To run the app I made using shiny, run these lines of code in your favorite R compiler IDE and it will pull up a pop-up window in your current browser. In order to run this, you need to make sure you have the correct packages installed (shiny, tidyr, dplyr, ggplot2). You can install the correct versions of these packages by running the following line of code in your R IDE. If you already have these packages installed, it is still worth running this line to make sure all your packages are up to date.
 ```
-install.packages('shiny') #This installs the most recent version of Shiny
+install.packages(c("shiny", "dplyr", "tidyr", "ggplot2"))
+```
+
+Once the packages are installed, you can run the following lines to run the shiny app.
+```
 library(shiny) #import shiny library
 runGitHub("StudentPerfromanceAnalysis", "EliBrignac") #run my app
 ```
