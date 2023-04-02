@@ -1,8 +1,13 @@
 
 
-pacman::p_load(pacman, dplyr, GGally, ggplot2, ggthemes,
-                 ggvis, httr, lubridate, plotly, rio, rmarkdown, shiny,
-                 stringr, tidyr) 
+#pacman::p_load(pacman, dplyr, GGally, ggplot2, ggthemes,
+#                 ggvis, httr, lubridate, plotly, rio, rmarkdown, shiny,
+#                 stringr, tidyr) 
+
+library(shiny)
+library(tidyr)
+library(dplyr)
+library(ggplot2)
 
 exams <- read.csv("exams.csv")
 
