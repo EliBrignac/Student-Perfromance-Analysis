@@ -14,6 +14,7 @@ runGitHub("StudentPerfromanceAnalysis", "EliBrignac") #run my app
 
 
 ### The General Data
+I got this data set from kaggle.com and it can be found at this [LINK](https://www.kaggle.com/datasets/rkiattisak/student-performance-in-mathematics) 
 #### Here are the graphs that the general_analysis file makes, I just made them because it was fun and interesting
 
 
