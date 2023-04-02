@@ -9,7 +9,7 @@ library(tidyr)
 library(dplyr)
 library(ggplot2)
 
-exams <- read.csv("data\\exams.csv")
+exams <- read.csv("exams.csv")
 
 exams <- exams %>%
   rename(ethnicity = race.ethnicity, 
