@@ -1,6 +1,7 @@
 # Student-Perfromance-Analysis
+<img width="960" alt="PictureOfApp" src="https://user-images.githubusercontent.com/94129362/229425187-6e3d7305-2651-4d96-947b-ab76c0ffb981.png">
 
-##  ✨ The Shiny App ✨
+##  ✨ How to Run App ✨
 To run the app I made using shiny, run these lines of code in your favorite R compiler IDE and it will pull up a pop-up window in your current browser. In order to run this, you need to make sure you have the correct packages installed (shiny, tidyr, dplyr, ggplot2). You can install the correct versions of these packages by running the following line of code in your R IDE. If you already have these packages installed, it is still worth running this line to make sure all your packages are up to date.
 ```
 install.packages(c("shiny", "dplyr", "tidyr", "ggplot2"))
