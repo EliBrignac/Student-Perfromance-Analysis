@@ -1,4 +1,5 @@
 # Student-Perfromance-Analysis
+(This is just an image)
 <img width="960" alt="PictureOfApp" src="https://user-images.githubusercontent.com/94129362/229425187-6e3d7305-2651-4d96-947b-ab76c0ffb981.png">
 
 ##  ✨ How to Run App ✨
